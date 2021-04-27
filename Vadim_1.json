@@ -1,0 +1,10 @@
+{
+	"name":"Viktor",
+	"surname":"Oleinikov"
+	"family":{"Dauther":{"name":"Milana",
+			     "age":3,
+			     "female":true,
+			     "toys":["ball", "doll", "bike", true, 4, 3.5, null, {"friend":"Artem"}]}
+	}
+}
+
