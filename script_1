@@ -1,0 +1,17 @@
+#!/bin/bash
+cd d:
+cd work_3
+mkdir 1
+mkdir 2
+mkdir 3
+cd 1
+touch 4.txt
+touch 5.txt
+touch 6.txt
+touch 7.json
+touch 8.json
+mkdir 9
+mkdir 0
+ls -la
+mv '4.txt' 0
+mv '5.txt' 0
