@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "313e1e01-5dfe-49bc-bc35-cfdd0780ab6a",
+		"name": "dz",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "login",
+							"value": "str",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "str",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url}}?name=&password=",
+					"host": [
+						"{{url}}"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": ""
+						},
+						{
+							"key": "password",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
